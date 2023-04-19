@@ -51,13 +51,13 @@ table {
     input[type=submit] {
       background-color: transparent;
       border: none;
-      color:antiquewhite;
-      padding: 10px 20px;
+      color:rgb(51, 50, 50);
+      padding: 5px 5px;
       text-align: center;
       text-decoration: none;
-      display: inline-block;
-      font-size: 16px;
-      margin: 4px 2px;
+      display: block;
+      font-size: 20px;
+      margin: 5px auto;
       cursor: pointer;
       border-radius: 8px;
       box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
@@ -65,22 +65,22 @@ table {
   
   .ventana a {
       position: relative;
-      display:inline-block;
-      padding: 10px 10px;
+      display:block;
+      padding: 5px 5px;
       color: #03e9f4;
-      font-size: 16px;
+      font-size: 6px;
       text-decoration: none;
       text-transform: uppercase;
       overflow: hidden;
       transition: .5s;
-      margin-top: 10px;
+      margin: 10px 25px;
       letter-spacing: 40px;
   }
   
   .ventana a:hover {
       background: #03e9f4;
       color: #fff;
-      border-radius: 5px;
+      border-radius: 15px;
       box-shadow: 0 0 5px #f403e0,
                   0 0 25px  #f403e0,
                   0 0 50px #f403e0,
