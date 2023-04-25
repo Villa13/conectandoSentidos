@@ -19,3 +19,7 @@ var Álgebra = ["ÁLGEBRA", "<br><br>NRC: 87642", "<br><br>ROBERTO ROBLEDO OLIV�
 var MineríaDD = ["MINERIA DE DATOS", "<br><br>NRC: 97842", "<br><br>MAXIMILIANO TUR LARA <br>Organizador <br><br> <a href=reunion.html><span></span><span></span><span></span><span></span><input type=submit value=Iniciar_Reunion></a>"];
 var ProgramaciónII = ["PROGRAMACION II", "<br><br>NRC: 21378", "<br><br>ERNESTO VIDAL PALACIOS <br>Organizador <br><br> <a href=reunion.html><span></span><span></span><span></span><span></span><input type=submit value=Iniciar_Reunion></a>"];
 var tabla = document.getElementsByTagName("table")[0];
+var tbody = document.getElementsByTagName("tbody")[0];
+var tr = document.getElementsByTagName("tr")[0];
+var td = document.getElementsByTagName("td")[0];
+var i = 0;
