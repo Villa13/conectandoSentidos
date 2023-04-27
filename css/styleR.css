@@ -15,21 +15,27 @@ body {
 }
 
 #containerV{
-	position: absolute;
-	background-color:black;
-	left: 14%;
-	top: 18%;
+	position: relative;
+	left: 17%;
+	width: 55%;
+	height: 60%;
 }
 
 video {
-	width: 800px;
-	height: 500px;
+	width: 100%;
+	height: auto;
+	
 }
 #botones {
 	position: absolute;
 	bottom: 0;
+	left: 0;
+	right: 0;
+	padding: 3px;
 	background-color: #f590f8;
-	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 #botones button {
 	margin: 5px;
@@ -38,6 +44,8 @@ video {
 	background-color: #0078D4;
 	color: #fff;
 	cursor: pointer;
+	border-radius: 15%;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.678);
 }
 
 button{
@@ -106,18 +114,6 @@ h1{
 	cursor: pointer;
 }
 
-/*
-.video {
-	flex-basis: 60%;
-	padding: 1% 13%;
-
-	
-}
-
-.video video {
-	width: 100%;
-}
-*/
 ul {
 	list-style: none;
 	padding: 0;
