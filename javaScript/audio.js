@@ -13,6 +13,7 @@ recognition.onresult = function(event) {
   } else if (spokenText.includes('derecha')) {
     avatar.style.transform = 'translateX(100px)';
   }
+  console.log('Texto hablado:', spokenText);
 }
 
 recognition.start();

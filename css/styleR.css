@@ -2,10 +2,12 @@ body {
 	font-family: Arial, sans-serif;
 	margin: 0;
 	padding: 0;
+	background: linear-gradient(#DEF2F1, #dadfe6);
+
 }
 
 .header {
-	background-color: #f590f8;
+	background-color: #2B7A78;
 	color: #fff;
 	bottom:auto ;
 	top: 0;
@@ -26,13 +28,19 @@ video {
 	height: auto;
 	
 }
+
+.circular-img {
+	border-radius: 50%;
+	border: 2px solid white;
+  }
+/* Botones */
 #botones {
 	position: absolute;
 	bottom: 0;
 	left: 0;
 	right: 0;
 	padding: 3px;
-	background-color: #f590f8;
+	background-color: #2B7A78;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -41,7 +49,7 @@ video {
 	margin: 5px;
 	padding: 5px;
 	border: none;
-	background-color: #0078D4;
+	background-color: #60b1b1;
 	color: #fff;
 	cursor: pointer;
 	border-radius: 15%;
@@ -71,14 +79,14 @@ h1{
 	display: flex;
 	flex-wrap: wrap;
 }
-
+/* Participantes */
 .participants {
 	flex-basis: 25%;
 	padding: 20px;
 	position: absolute;
 	right: 13%;
-	}
-
+}
+/* Avatar */
 .Avatar{
 	flex-basis: 25%;
 	padding: 20px;
@@ -86,6 +94,15 @@ h1{
 	left: 1%;
 }
 
+#avatar{
+	position: absolute;
+	top: 30%;
+	left: 6%;
+	transform: translate(-50%);
+	transition: all 0.3s ease;
+
+}
+/* Chat */
 .chat {
 	flex-basis: 25%;
 	padding: 20px;
@@ -106,7 +123,7 @@ h1{
 }
 
 .chat form button[type="submit"] {
-	background-color: #0078D4;
+	background-color: #60b1b1;
 	color: #fff;
 	padding: 10px 20px;
 	border: none;
