@@ -144,3 +144,15 @@ ul li {
 ul li strong {
 	margin-right: 10px;
 }
+/*Boton de salir*/
+.exit{
+float: right;
+margin: 30px;
+padding: 10px;
+border: none;
+background-color: #be2323;
+color: #fff;
+cursor: pointer;
+border-radius: 15%;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.678);
+}
