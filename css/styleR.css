@@ -23,10 +23,41 @@ body {
 	height: 60%;
 }
 
-video {
+#video {
 	width: 100%;
 	height: auto;
+	border-radius: 2%;
 	
+}
+
+#videoS {
+	width: 15%;
+	height: auto;
+	position: absolute;
+	top: 76%;
+	left: 79%;
+	z-index: 1;
+	transition: all 0.3s ease;
+	border-radius: 10%;
+
+}
+
+#videoCapturado {
+	width: 60%;
+	height: auto;
+	position: absolute;
+	top: 18%;
+	left: 14%;
+	z-index: 1;
+	border-radius: 2%;
+}
+
+#canvas {
+	width: 15%;
+	height: auto;
+	position: absolute;
+	top: 76%;
+	left: 0%;
 }
 
 .circular-img {

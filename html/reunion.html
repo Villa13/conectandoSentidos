@@ -6,8 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Conectando Sentidos</title>
 
+	<link rel="shortcut icon" href="/img/logoCS.png" type="image/x-icon">
     <script src="/javaScript/video.js"></script>
-	<script src="/javaScript/audio.js"></script>
+	<script src="/javaScript/videoE.js"></script>
+	<script src="/javaScript/transmitirP.js"></script>
     <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400' rel='stylesheet' type='text/css'>
     <link href="/css/styleR.css" rel="stylesheet">
 </head>
@@ -47,14 +49,20 @@
 			</form>
 		</div>
         <div id="containerV">
-            <video id="video" autoplay></video>
+         <video id="video" autoplay></video>
             <div id="botones">
                 <button id="btnActivarVideo">Activar Video</button>
                 <button id="btnDesactivarVideo">Desactivar Video</button>
                 <button id="btnActivarAudio">Activar Audio</button>
                 <button id="btnDesactivarAudio">Desactivar Audio</button>
+				<button id="btnCapturar">Capturar Pantalla</button>
+				<button id="btnDesactivarCap">Detener Captura</button>
             </div>
 		  </div>	
+		  <video id="videoS" autoplay></video>
+
+		  <video id="videoCapturado" autoplay></video>
+		  <canvas id="canvas"></canvas>
 	</div>
 </body>
 </html>

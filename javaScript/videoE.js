@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', function() {
-    let video = document.getElementById('videoS');
+    let video = document.getElementById('video');
     let btnActivarVideo = document.getElementById('btnActivarVideo');
     let btnDesactivarVideo = document.getElementById('btnDesactivarVideo');
     let btnActivarAudio = document.getElementById('btnActivarAudio');
