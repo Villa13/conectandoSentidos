@@ -1,0 +1,16 @@
+{
+    "anims": [
+        {
+            "key": "character_2_hurt_left_anim",
+            "type": "frames",
+            "repeat": 0,
+            "frameRate": 12,
+            "frames": [
+                {
+                    "key": "character_2_hurt_left",
+                    "frame": "character_2_hurt_left_0"
+                }
+            ]
+        }
+    ]
+}

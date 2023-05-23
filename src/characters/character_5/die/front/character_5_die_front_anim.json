@@ -1,0 +1,20 @@
+{
+    "anims": [
+        {
+            "key": "character_5_die_front_anim",
+            "type": "frames",
+            "repeat": -1,
+            "frameRate": 12,
+            "frames": [
+                {
+                    "key": "character_5_die_front",
+                    "frame": "character_5_die_0"
+                },
+                {
+                    "key": "character_5_die_front",
+                    "frame": "character_5_die_1"
+                }
+            ]
+        }
+    ]
+}

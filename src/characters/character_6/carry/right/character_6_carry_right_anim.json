@@ -1,0 +1,44 @@
+{
+    "anims": [
+        {
+            "key": "character_6_carry_right_anim",
+            "type": "frames",
+            "repeat": -1,
+            "frameRate": 12,
+            "frames": [
+                {
+                    "key": "character_6_carry_right",
+                    "frame": "character_6_carry_0"
+                },
+                {
+                    "key": "character_6_carry_right",
+                    "frame": "character_6_carry_1"
+                },
+                {
+                    "key": "character_6_carry_right",
+                    "frame": "character_6_carry_2"
+                },
+                {
+                    "key": "character_6_carry_right",
+                    "frame": "character_6_carry_3"
+                },
+                {
+                    "key": "character_6_carry_right",
+                    "frame": "character_6_carry_4"
+                },
+                {
+                    "key": "character_6_carry_right",
+                    "frame": "character_6_carry_5"
+                },
+                {
+                    "key": "character_6_carry_right",
+                    "frame": "character_6_carry_6"
+                },
+                {
+                    "key": "character_6_carry_right",
+                    "frame": "character_6_carry_7"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,44 @@
+{
+    "anims": [
+        {
+            "key": "character_9_carry_left_anim",
+            "type": "frames",
+            "repeat": -1,
+            "frameRate": 12,
+            "frames": [
+                {
+                    "key": "character_9_carry_left",
+                    "frame": "character_9_carry_0"
+                },
+                {
+                    "key": "character_9_carry_left",
+                    "frame": "character_9_carry_1"
+                },
+                {
+                    "key": "character_9_carry_left",
+                    "frame": "character_9_carry_2"
+                },
+                {
+                    "key": "character_9_carry_left",
+                    "frame": "character_9_carry_3"
+                },
+                {
+                    "key": "character_9_carry_left",
+                    "frame": "character_9_carry_4"
+                },
+                {
+                    "key": "character_9_carry_left",
+                    "frame": "character_9_carry_5"
+                },
+                {
+                    "key": "character_9_carry_left",
+                    "frame": "character_9_carry_6"
+                },
+                {
+                    "key": "character_9_carry_left",
+                    "frame": "character_9_carry_7"
+                }
+            ]
+        }
+    ]
+}

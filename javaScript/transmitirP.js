@@ -15,7 +15,7 @@ document.addEventListener('DOMContentLoaded', function() {
             canvas.width = video.videoWidth;
             canvas.height = video.videoHeight;
             setInterval(() => {
-              ctx.drawImage(canvas.width, canvas.height);
+              ctx.drawImage(video, 0, 0, canvas.width, canvas.height);
             }, 1000 / 30);
           };
         })

@@ -1,0 +1,68 @@
+{
+    "anims": [
+        {
+            "key": "character_4_carry_right_anim",
+            "type": "frames",
+            "frames": [
+                {
+                    "key": "character_4_carry_right",
+                    "frame": "character_4_carry_0",
+                    "duration": 0,
+                    "visible": false
+                },
+                {
+                    "key": "character_4_carry_right",
+                    "frame": "character_4_carry_1",
+                    "duration": 0,
+                    "visible": false
+                },
+                {
+                    "key": "character_4_carry_right",
+                    "frame": "character_4_carry_2",
+                    "duration": 0,
+                    "visible": false
+                },
+                {
+                    "key": "character_4_carry_right",
+                    "frame": "character_4_carry_3",
+                    "duration": 0,
+                    "visible": false
+                },
+                {
+                    "key": "character_4_carry_right",
+                    "frame": "character_4_carry_4",
+                    "duration": 0,
+                    "visible": false
+                },
+                {
+                    "key": "character_4_carry_right",
+                    "frame": "character_4_carry_5",
+                    "duration": 0,
+                    "visible": false
+                },
+                {
+                    "key": "character_4_carry_right",
+                    "frame": "character_4_carry_6",
+                    "duration": 0,
+                    "visible": false
+                },
+                {
+                    "key": "character_4_carry_right",
+                    "frame": "character_4_carry_7",
+                    "duration": 0,
+                    "visible": false
+                }
+            ],
+            "frameRate": 12,
+            "duration": 1.6,
+            "skipMissedFrames": true,
+            "delay": 0,
+            "repeat": 2,
+            "repeatDelay": 0,
+            "yoyo": false,
+            "showOnStart": false,
+            "hideOnComplete": false
+        }
+    ],
+    "globalTimeScale": 1
+}

@@ -1,0 +1,28 @@
+{
+    "anims": [
+        {
+            "key": "character_2_attack_front_anim",
+            "type": "frames",
+            "repeat": 0,
+            "frameRate": 22,
+            "frames": [
+                {
+                    "key": "character_2_attack_front",
+                    "frame": "character_2_attack_front_0"
+                },
+                {
+                    "key": "character_2_attack_front",
+                    "frame": "character_2_attack_front_1"
+                },
+                {
+                    "key": "character_2_attack_front",
+                    "frame": "character_2_attack_front_2"
+                },
+                {
+                    "key": "character_2_attack_front",
+                    "frame": "character_2_attack_front_3"
+                }
+            ]
+        }
+    ]
+}

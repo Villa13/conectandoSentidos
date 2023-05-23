@@ -1,0 +1,44 @@
+{
+    "anims": [
+        {
+            "key": "character_2_walk_back_anim",
+            "type": "frames",
+            "repeat": -1,
+            "frameRate": 12,
+            "frames": [
+                {
+                    "key": "character_2_walk_back",
+                    "frame": "character_girl_walk_0_back"
+                },
+                {
+                    "key": "character_2_walk_back",
+                    "frame": "character_girl_walk_1_back"
+                },
+                {
+                    "key": "character_2_walk_back",
+                    "frame": "character_girl_walk_2_back"
+                },
+                {
+                    "key": "character_2_walk_back",
+                    "frame": "character_girl_walk_3_back"
+                },
+                {
+                    "key": "character_2_walk_back",
+                    "frame": "character_girl_walk_4_back"
+                },
+                {
+                    "key": "character_2_walk_back",
+                    "frame": "character_girl_walk_5_back"
+                },
+                {
+                    "key": "character_2_walk_back",
+                    "frame": "character_girl_walk_6_back"
+                },
+                {
+                    "key": "character_2_walk_back",
+                    "frame": "character_girl_walk_7_back"
+                }
+            ]
+        }
+    ]
+}

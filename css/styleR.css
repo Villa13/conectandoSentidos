@@ -2,7 +2,7 @@ body {
 	font-family: Arial, sans-serif;
 	margin: 0;
 	padding: 0;
-	background: linear-gradient(#DEF2F1, #dadfe6);
+	background-color:  #dadfe6;
 
 }
 
@@ -122,17 +122,9 @@ h1{
 	flex-basis: 25%;
 	padding: 20px;
 	position: absolute;
-	left: 1%;
+	left: 0%;
 }
 
-#avatar{
-	position: absolute;
-	top: 30%;
-	left: 6%;
-	transform: translate(-50%);
-	transition: all 0.3s ease;
-
-}
 /* Chat */
 .chat {
 	flex-basis: 25%;

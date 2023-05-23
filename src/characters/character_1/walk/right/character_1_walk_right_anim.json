@@ -1,0 +1,44 @@
+{
+    "anims": [
+        {
+            "key": "character_1_walk_right_anim",
+            "type": "frames",
+            "repeat": -1,
+            "frameRate": 12,
+            "frames": [
+                {
+                    "key": "character_1_walk_right",
+                    "frame": "character_1_walk_0"
+                },
+                {
+                    "key": "character_1_walk_right",
+                    "frame": "character_1_walk_1"
+                },
+                {
+                    "key": "character_1_walk_right",
+                    "frame": "character_1_walk_2"
+                },
+                {
+                    "key": "character_1_walk_right",
+                    "frame": "character_1_walk_3"
+                },
+                {
+                    "key": "character_1_walk_right",
+                    "frame": "character_1_walk_4"
+                },
+                {
+                    "key": "character_1_walk_right",
+                    "frame": "character_1_walk_5"
+                },
+                {
+                    "key": "character_1_walk_right",
+                    "frame": "character_1_walk_6"
+                },
+                {
+                    "key": "character_1_walk_right",
+                    "frame": "character_1_walk_7"
+                }
+            ]
+        }
+    ]
+}

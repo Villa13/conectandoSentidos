@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,17 +7,19 @@
     <title>Conectando Sentidos</title>
 
 	<link rel="shortcut icon" href="/img/logoCS.png" type="image/x-icon">
-    <script src="/javaScript/video.js"></script>
-	<script src="/javaScript/videoE.js"></script>
+	<script src="/node_modules/socket.io-client/dist/socket.io.js"></script>
+	<script src="/javaScript/video.js"></script>
+    <script src="/javaScript/canalWebRTC.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/phaser@3.60.0/dist/phaser.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
 	<script src="/javaScript/transmitirP.js"></script>
-    <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400' rel='stylesheet' type='text/css'>
     <link href="/css/styleR.css" rel="stylesheet">
 </head>
 <body>
     <div class="header">
 		
 		<img src="/img/logoCS.png" width="95" height="95"  alt="LOGO" class="circular-img" >
-		<input class="exit" type=button name=boton value="    Cerrar Sesion   " onclick="window.close()">
+		<a href="/html/calendario.html" class="exit" >Cerrar Llamada</a>
 	</div>
 	
 	<h1 class="text">CONECTANDO SENTIDOS</h1>
@@ -32,10 +34,13 @@
 			</ul>
 		</div>
 
-		<div class="Avatar"><h2>AVATAR</h2></div>
-		<div id="avatar"> 
-			<img alt= "Avatar" src="/img/avatar.png" width="150" height="150">
-		</div>
+		<div class="Avatar">
+            <h2>AVATAR</h2>
+            <div id="phaser-example"></div>
+			<script src="/javaScript/animacion.js"></script>
+        </div>
+
+
 		<div class="chat">
 			<h2>Chat</h2>
 			<ul>
@@ -50,19 +55,21 @@
 		</div>
         <div id="containerV">
          <video id="video" autoplay></video>
+		 <audio id="audio" autoplay></audio>
             <div id="botones">
                 <button id="btnActivarVideo">Activar Video</button>
                 <button id="btnDesactivarVideo">Desactivar Video</button>
                 <button id="btnActivarAudio">Activar Audio</button>
                 <button id="btnDesactivarAudio">Desactivar Audio</button>
-				<button id="btnCapturar">Capturar Pantalla</button>
+				<button id="btnCapturar">Compartir Pantalla</button>
 				<button id="btnDesactivarCap">Detener Captura</button>
+				<button id="btnIniciarLlamada" onclick="startCall()">Iniciar Llamada</button>
             </div>
 		  </div>	
 		  <video id="videoS" autoplay></video>
 
 		  <video id="videoCapturado" autoplay></video>
-		  <canvas id="canvas"></canvas>
+		  <canvas id="canvas" hidden autoplay></canvas>
 	</div>
 </body>
 </html>

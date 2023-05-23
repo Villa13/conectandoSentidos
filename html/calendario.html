@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conectando Sentidos</title>
+    
+    <link rel="shortcut icon" href="/img/logoCS.png" type="image/x-icon">
+    <link href="/css/style.css" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400' rel='stylesheet' type='text/css'>
+    <script src="/javaScript/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+  </head>
+<body ondblclick="ocultarVentana()">
+
+<div id="ventana" class="ventana">
+</div>
+<div id="fondo" class="fondo"></div>
+
+    <div class="container">
+        <a href="#" class="navbar-brand">
+            <img src="/img/logoCS.png" width="95" height="95" alt="LOGO" class="circular-img" > 
+        </a>
+      </div>
+    
+    <table>
+        
+        <tr>
+            <th>Dia<br>Hora</th>
+            <th>Lunes<br>20</th>
+            <th>Martes<br>21</th>
+            <th>Miércoles<br>22</th>
+            <th>Jueves<br>23</th>
+            <th>Viernes<br>24</th>
+          </tr>
+          <tr>
+            <td>8:00 - 9:00</td>
+            <td onclick="mostrarVentana(Bases)" >Bases de datos</td>
+            <td onclick="mostrarVentana(Inglés)">Inglés</td>
+            <td onclick="mostrarVentana(Álgebra)">Álgebra</td>
+            <td onclick="mostrarVentana(MineríaDD)">MineríaDD</td>
+            <td onclick="mostrarVentana(ProgramaciónII)">ProgramaciónII</td>
+          </tr>
+          <tr>
+            <td>9:00 - 10:00</td>
+            <td onclick="mostrarVentana(Álgebra)">Álgebra</td>
+            <td onclick="mostrarVentana(MineríaDD)">MineríaDD</td>
+            <td onclick="mostrarVentana(ProgramaciónII)">ProgramaciónII</td>
+            <td onclick="mostrarVentana(Bases)">Bases de datos</td>
+            <td onclick="mostrarVentana(Inglés)">Inglés</td>
+          </tr>
+          <tr>
+            <td>10:00 - 11:00</td>
+            <td onclick="mostrarVentana(Álgebra)">Álgebra</td>
+            <td onclick="mostrarVentana(ProgramaciónII)">ProgramaciónII</td>
+            <td onclick="mostrarVentana(Bases)">Bases de datos</td>
+            <td onclick="mostrarVentana(Inglés)">Inglés</td>
+            <td onclick="mostrarVentana(Álgebra)">Álgebra</td>
+          </tr>
+          <tr>
+            <td>11:00 - 12:00</td>
+            <td onclick="mostrarVentana(Inglés)">Inglés</td>
+            <td onclick="mostrarVentana(Álgebra)">Álgebra</td>
+            <td onclick="mostrarVentana(MineríaDD)">MineríaDD</td>
+            <td onclick="mostrarVentana(ProgramaciónII)">ProgramaciónII</td>
+            <td onclick="mostrarVentana(Bases)">Bases de datos</td>
+          </tr>
+          <tr>
+            <td>12:00 - 13:00</td>
+            <td>Almuerzo</td>
+            <td>Almuerzo</td>
+            <td>Almuerzo</td>
+            <td>Almuerzo</td>
+            <td>Almuerzo</td>
+          </tr>
+          <tr>
+            <td>13:00 - 14:00</td>
+            <td onclick="mostrarVentana(ProgramaciónII)">ProgramaciónII</td>
+            <td onclick="mostrarVentana(Bases)">Bases de datos</td>
+            <td onclick="mostrarVentana(Inglés)">Inglés</td>
+            <td onclick="mostrarVentana(Álgebra)">Álgebra</td>
+            <td onclick="mostrarVentana(MineríaDD)">MineríaDD</td>
+          </tr>
+          <tr>
+            <td>14:00 - 15:00</td>
+            <td onclick="mostrarVentana(Inglés)">Inglés</td>
+            <td onclick="mostrarVentana(Álgebra)">Álgebra</td>
+            <td onclick="mostrarVentana(MineríaDD)">MineríaDD</td>
+            <td onclick="mostrarVentana(Bases)">Bases de datos</td>
+            <td onclick="mostrarVentana(ProgramaciónII)">ProgramaciónII</td>
+          </tr>
+          <tr>
+            <td>15:00 - 16:00</td>
+            <td onclick="mostrarVentana(MineríaDD)">MineríaDD</td>
+            <td onclick="mostrarVentana(MineríaDD)">MineríaDD</td>
+            <td onclick="mostrarVentana(ProgramaciónII)">ProgramaciónII</td>
+            <td onclick="mostrarVentana(Inglés)">Inglés</td>
+            <td onclick="mostrarVentana(Bases)">Bases de datos</td>
+        </tr>
+        
+    </table>
+</body>
+</html>

@@ -1,0 +1,28 @@
+{
+    "anims": [
+        {
+            "key": "character_9_attack_back_anim",
+            "type": "frames",
+            "repeat": 0,
+            "frameRate": 22,
+            "frames": [
+                {
+                    "key": "character_9_attack_back",
+                    "frame": "character_9_attack_1"
+                },
+                {
+                    "key": "character_9_attack_back",
+                    "frame": "character_9_attack_2"
+                },
+                {
+                    "key": "character_9_attack_back",
+                    "frame": "character_9_attack_3"
+                },
+                {
+                    "key": "character_9_attack_back",
+                    "frame": "character_9_attack_0"
+                }
+            ]
+        }
+    ]
+}

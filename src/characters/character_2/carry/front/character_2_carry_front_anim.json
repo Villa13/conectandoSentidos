@@ -1,0 +1,44 @@
+{
+    "anims": [
+        {
+            "key": "character_2_carry_front_anim",
+            "type": "frames",
+            "repeat": -1,
+            "frameRate": 12,
+            "frames": [
+                {
+                    "key": "character_2_carry_front",
+                    "frame": "character_2_carry_front_0"
+                },
+                {
+                    "key": "character_2_carry_front",
+                    "frame": "character_2_carry_front_1"
+                },
+                {
+                    "key": "character_2_carry_front",
+                    "frame": "character_2_carry_front_2"
+                },
+                {
+                    "key": "character_2_carry_front",
+                    "frame": "character_2_carry_front_3"
+                },
+                {
+                    "key": "character_2_carry_front",
+                    "frame": "character_2_carry_front_4"
+                },
+                {
+                    "key": "character_2_carry_front",
+                    "frame": "character_2_carry_front_5"
+                },
+                {
+                    "key": "character_2_carry_front",
+                    "frame": "character_2_carry_front_6"
+                },
+                {
+                    "key": "character_2_carry_front",
+                    "frame": "character_2_carry_front_7"
+                }
+            ]
+        }
+    ]
+}

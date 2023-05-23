@@ -1,0 +1,28 @@
+{
+    "anims": [
+        {
+            "key": "character_3_attack_right_anim",
+            "type": "frames",
+            "repeat": 0,
+            "frameRate": 22,
+            "frames": [
+                {
+                    "key": "character_3_attack_right",
+                    "frame": "character_3_attack_0"
+                },
+                {
+                    "key": "character_3_attack_right",
+                    "frame": "character_3_attack_1"
+                },
+                {
+                    "key": "character_3_attack_right",
+                    "frame": "character_3_attack_2"
+                },
+                {
+                    "key": "character_3_attack_right",
+                    "frame": "character_3_attack_3"
+                }
+            ]
+        }
+    ]
+}

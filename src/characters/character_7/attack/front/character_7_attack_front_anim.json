@@ -1,0 +1,28 @@
+{
+    "anims": [
+        {
+            "key": "character_7_attack_front_anim",
+            "type": "frames",
+            "repeat": 0,
+            "frameRate": 22,
+            "frames": [
+                {
+                    "key": "character_7_attack_front",
+                    "frame": "character_7_attack_0"
+                },
+                {
+                    "key": "character_7_attack_front",
+                    "frame": "character_7_attack_1"
+                },
+                {
+                    "key": "character_7_attack_front",
+                    "frame": "character_7_attack_2"
+                },
+                {
+                    "key": "character_7_attack_front",
+                    "frame": "character_7_attack_3"
+                }
+            ]
+        }
+    ]
+}

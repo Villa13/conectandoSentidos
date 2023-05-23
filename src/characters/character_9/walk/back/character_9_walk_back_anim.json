@@ -1,0 +1,44 @@
+{
+    "anims": [
+        {
+            "key": "character_9_walk_back_anim",
+            "type": "frames",
+            "repeat": -1,
+            "frameRate": 12,
+            "frames": [
+                {
+                    "key": "character_9_walk_back",
+                    "frame": "character_9_walk_0"
+                },
+                {
+                    "key": "character_9_walk_back",
+                    "frame": "character_9_walk_1"
+                },
+                {
+                    "key": "character_9_walk_back",
+                    "frame": "character_9_walk_2"
+                },
+                {
+                    "key": "character_9_walk_back",
+                    "frame": "character_9_walk_3"
+                },
+                {
+                    "key": "character_9_walk_back",
+                    "frame": "character_9_walk_4"
+                },
+                {
+                    "key": "character_9_walk_back",
+                    "frame": "character_9_walk_5"
+                },
+                {
+                    "key": "character_9_walk_back",
+                    "frame": "character_9_walk_6"
+                },
+                {
+                    "key": "character_9_walk_back",
+                    "frame": "character_9_walk_7"
+                }
+            ]
+        }
+    ]
+}

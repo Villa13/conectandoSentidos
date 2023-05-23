@@ -1,0 +1,44 @@
+{
+    "anims": [
+        {
+            "key": "character_1_carry_front_anim",
+            "type": "frames",
+            "repeat": -1,
+            "frameRate": 12,
+            "frames": [
+                {
+                    "key": "character_1_carry_front",
+                    "frame": "character_1_carry_0"
+                },
+                {
+                    "key": "character_1_carry_front",
+                    "frame": "character_1_carry_1"
+                },
+                {
+                    "key": "character_1_carry_front",
+                    "frame": "character_1_carry_2"
+                },
+                {
+                    "key": "character_1_carry_front",
+                    "frame": "character_1_carry_3"
+                },
+                {
+                    "key": "character_1_carry_front",
+                    "frame": "character_1_carry_4"
+                },
+                {
+                    "key": "character_1_carry_front",
+                    "frame": "character_1_carry_5"
+                },
+                {
+                    "key": "character_1_carry_front",
+                    "frame": "character_1_carry_6"
+                },
+                {
+                    "key": "character_1_carry_front",
+                    "frame": "character_1_carry_7"
+                }
+            ]
+        }
+    ]
+}

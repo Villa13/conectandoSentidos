@@ -1,0 +1,16 @@
+{
+    "anims": [
+        {
+            "key": "character_2_hurt_back_anim",
+            "type": "frames",
+            "repeat": 0,
+            "frameRate": 12,
+            "frames": [
+                {
+                    "key": "character_2_hurt_back",
+                    "frame": "character_2_hurt_back_0"
+                }
+            ]
+        }
+    ]
+}
