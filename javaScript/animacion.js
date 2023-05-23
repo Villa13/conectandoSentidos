@@ -14,7 +14,7 @@ class Example extends Phaser.Scene {
   }
 
   create() {
-    this.startAnimationOnVoiceCommand(); // Inicia la animación al recibir un comando de voz
+    this.startAnimationOnVoiceCommand();
   }
 
   startAnimationOnVoiceCommand() {
@@ -30,21 +30,21 @@ class Example extends Phaser.Scene {
         sprite.setScale(4);
 
         sprite.on('animationcomplete', () => {
-          sprite.destroy(); // Desaparece el sprite después de reproducir la animación completa
+          sprite.destroy();
         });
       } else if (result.includes('llevar')) {
         const sprite = this.add.sprite(100, 100, 'character_4_carry_front').play('character_4_carry_front_anim');
         sprite.setScale(4);
 
         sprite.on('animationcomplete', () => {
-          sprite.destroy(); // Desaparece el sprite después de reproducir la animación completa
+          sprite.destroy();
         });
       } else if (result.includes('correr')) {
         const sprite = this.add.sprite(100, 100, 'character_4_walk_front').play('character_4_walk_front_anim');
         sprite.setScale(4);
 
         sprite.on('animationcomplete', () => {
-          sprite.destroy(); // Desaparece el sprite después de reproducir la animación completa
+          sprite.destroy();
         });
       } else {
       }
